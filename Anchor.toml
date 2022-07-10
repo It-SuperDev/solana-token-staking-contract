@@ -1,0 +1,17 @@
+[programs.localnet]
+test_staking = "65fMP12hbWs8FrHxBcwYkjQwL2SVv43EisrMvUpWJdkN"
+[programs.devnet]
+test_staking = "65fMP12hbWs8FrHxBcwYkjQwL2SVv43EisrMvUpWJdkN"
+[programs.mainnet]
+test_staking = "65fMP12hbWs8FrHxBcwYkjQwL2SVv43EisrMvUpWJdkN"
+
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+cluster = "devnet"
+wallet = "/home/starbinna/.config/solana/id.json"
+
+[scripts]
+test = "mocha -t 1000000 tests/"
